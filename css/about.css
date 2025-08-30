@@ -1,0 +1,257 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+main {
+  position: relative;
+  left: 40rem;
+  height: 90vh;
+}
+
+.our_restarant_img img {
+  width: 40rem;
+  height: 40rem;
+  border-radius: 50%;
+  padding: 5rem;
+  background-color: rgba(208, 204, 199, 0.437);
+}
+
+.our_restarant_info_title {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 15rem;
+}
+
+.our_restarant_info_title h1 {
+  font-size: 4rem;
+}
+
+.our_restarant_info_title h1:nth-child(1) {
+  color: darkorange;
+  text-transform: capitalize;
+}
+
+.our_restarant_info_title_p p {
+  width: 30%;
+  line-height: 2.2rem;
+  height: 20rem;
+}
+
+.our_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.our_restarant_info2 p {
+  /* width: 30%; */
+  line-height: 2.6rem;
+}
+
+.our_restarant_info2 {
+  /* display: inline-block; */
+  width: 25%;
+}
+
+.our_restarant_img2 img {
+  width: 35rem;
+  height: 35rem;
+  display: block;
+  border-radius: 50%;
+}
+
+.our_restarant_img2 {
+  /* width: 20rem; */
+  display: inline-block;
+}
+
+.our_restarant2_dad {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.our_restarant2 {
+  width: 90%;
+}
+
+.chef_img img {
+  width: 30rem;
+}
+
+.chef_info_title h1,
+span {
+  text-transform: capitalize;
+  font-size: 3rem;
+  font-family: "Tinos", "Times New Roman", Times, serif;
+}
+
+.chef_info_title {
+  height: 16rem;
+}
+
+.chef_info_title span {
+  color: darkorange;
+}
+
+.chef_info_title h2 {
+  font-size: 1.5rem;
+  margin: 2rem 0rem;
+}
+
+.chef_info_title_p P {
+  width: 30%;
+  line-height: 2.3rem;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin: 2rem 0rem;
+}
+
+.chef {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  width: 90%;
+}
+
+
+
+@media (max-width: 950px) {
+  .home_menu {
+    left: 0;
+    justify-content: space-evenly;
+    width: 100rem;
+  }
+
+  main {
+    left: 0;
+    height: 165vh;
+  }
+  .footer_box {
+    position: relative;
+    right: 15rem;
+  }
+  .footer_icon .icons {
+    padding: 0.4rem;
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 630px) {
+  .home_menu {
+    width: 63rem;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+  .delizioso_link {
+    display: none;
+  }
+  .delizioso_btn button {
+    display: none;
+  }
+  .delizioso_btn .small_menu {
+    display: block;
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 324px) {
+
+  main{
+    height: 90vh;
+  }
+
+  .home_menu {
+    width: 30rem;
+  }
+
+  .our_restarant_img img {
+    width: 25rem;
+    height: 25rem;
+    padding: 3.5rem;
+  }
+
+  .our_restarant_img {
+    position: relative;
+    right: 7rem;
+  }
+
+  .our_restarant_info_title_p p {
+    width: 50%;
+    text-align: center;
+  }
+  .our_center {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 8rem;
+  }
+
+  .our_restarant_info_title {
+    position: absolute;
+    bottom: 85%;
+    left: -4rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .our_restarant_info_title h1 {
+    font-size: 2.8rem;
+  }
+  .our_restarant2_dad {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .our_restarant_img2 img {
+    width: 25rem;
+    height: 25rem;
+  }
+  .our_restarant_info2 {
+    position: relative;
+    right: 6rem;
+  }
+  .our_restarant_info2 p {
+    display: inline-block;
+    width: 20rem;
+    text-align: center;
+  }
+  .chef {
+    display: flex;
+    flex-direction: column;
+  }
+  .chef_img img {
+    width: 30rem;
+    border-radius: 5rem;
+  }
+  .chef_info_title {
+    position: absolute;
+  }
+
+  .chef_info_title h1{
+    text-align: center;
+    position: relative;
+    bottom: 60rem;
+    left: 7rem;
+  }
+
+  .chef_info_title h2{
+    position: relative;
+    bottom: 70%;
+    left: 35%;
+    text-align: center;
+  }
+
+  .chef_info_title_p p {
+    width: 90%;
+    margin: 3rem 0rem;
+    text-align: center;
+  }
+}

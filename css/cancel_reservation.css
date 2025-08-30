@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.reservation_title{
+    /* width: 38rem; */
+    margin: 1rem 0rem;
+}
+
+#none{
+    display: none;
+}
+
+#confermed_id{
+    background-color: #FF8A00;
+    width: 100%;
+    position: static;
+}
+
+
+
+#confermed_child_dad-id {
+justify-content:flex-start;
+width: 100%;
+}
+
+.confermed_btn button{
+    width: 30rem;
+    height: 6rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: #FF3838;
+    color: white;
+}
+
+.confermed_btn{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 65rem;
+}
+
+
+#corferm_reservation_id{
+    width: 100%;
+}
+
+
+.confermed_btn{
+    width: 100%;
+}
+@media (max-width:600px) {
+    #corferm_reservation_id{
+        max-height: 160vh;
+    }
+}
+
+@media (max-width:480px) {
+
+    #corferm_reservation_id{
+        min-height: 50rem;
+    }
+
+}

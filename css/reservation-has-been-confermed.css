@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.corferm_reservation_main {
+  height: auto;
+  position: absolute;
+} 
+
+#opacity_id{
+  position: static;
+  height: 156vh;
+}
+
+#reservation-has-been_main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.corferm_reservation {
+  overflow: hidden;
+}
+
+.confermed {
+  width: 111%;
+  margin: 3rem 0rem;
+  padding: 2rem 5rem;
+  background-color: #3fc66e;
+  color: white;
+}
+
+.confermed h1 {
+  font-size: 2.5rem;
+}
+
+.conferdet_df {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.true {
+  transform: scale(0.8);
+}
+
+.confermed_df {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.confermed_child1 {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.confermed_child1 img {
+  width: 17rem;
+  height: 17rem;
+  border-radius: 50%;
+  padding: 2rem;
+  background-color: #e1c39f43;
+}
+
+#reservation_details_id {
+  display: flex;
+}
+
+.confermed_child3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.modify {
+  width: 14rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.8rem;
+  background-color: #0073ffb7;
+  border-radius: 1rem;
+}
+
+.modify h1 {
+  color: #123968;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.icon {
+  transform: scale(2.5);
+}
+
+.not {
+  background-color: #ff000081;
+  gap: 0rem;
+}
+
+.not h1 {
+  color: #ff0000;
+}
+
+.confermed_child_dad {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  margin: 5rem 0rem;
+}
+
+.confermed_child_input-df {
+  display: flex;
+  align-items: flex-start;
+  width: 22rem;
+  height: 5rem;
+}
+
+.confermed_child_input-df input {
+  width: 20rem;
+}
+
+.confermed_child_input input {
+  border: none;
+}
+
+.confermed_child_input select {
+  border: none;
+}
+
+.confermed_child_input-height {
+  width: 22rem;
+  height: 20rem;
+}
+
+.confermed_child_lorem .reservation_details_title {
+  width: 25rem;
+  height: 8rem;
+}
+
+.confermed_child_lorem p {
+  width: 30rem;
+}
+
+.confermed_child_dad2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5rem;
+}
+
+@media (max-width: 1010px) {
+  .opacity {
+    display: none;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  
+  .corferm_reservation_main {
+    width: 100%;
+  }
+
+  .confermed_child_lorem .reservation_details_title {
+    width: 30rem;
+    height: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .confermed_child_input-height {
+    height: 11rem;
+  }
+
+  .corferm_reservation_header {
+    display: none;
+  }
+  .confermed {
+    width: 80%;
+  }
+
+  .confermed_child_dad {
+    flex-direction: column;
+    width: 50rem;
+  }
+  .confermed_child3 {
+    flex-direction: row;
+  }
+  .confermed_child_dad2 {
+    flex-direction: column;
+    align-items: center;
+    width: 50rem;
+  }
+}

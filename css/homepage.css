@@ -1,0 +1,606 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 655vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.welcom_delizision_img img {
+  width: 50rem;
+}
+
+.welcom_delizision_title h1 {
+  font-size: 4rem;
+  font-family: "Tinos", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  margin: 0;
+}
+
+.welcom_delizision_title h1:nth-child(2) {
+  color: #ff8a00;
+}
+
+.welcom_delizision_lorem p {
+  width: 40rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.1rem;
+  color: #5c4529;
+}
+
+.welcom_delizision_btn button {
+  width: 17rem;
+  height: 4rem;
+  border-radius: 2rem;
+  border: none;
+  color: white;
+  background-color: #ff8a00;
+}
+
+.welcom_delizision_p {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.welcom_delizision {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  height: 45rem;
+}
+
+.menu_link-food a {
+  text-decoration: none;
+  color: #311f09;
+  margin: 2rem 0.5rem;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  width: 100%;
+}
+
+.menu_link-food {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+a.active_link2 {
+  color: white;
+  background-color: #311f09;
+}
+
+.menu_title2 {
+  text-align: center;
+  font-size: 6rem;
+  font-weight: 700;
+  font-family: "Tinos", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.slideer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+}
+
+.slideer a {
+  text-decoration: none;
+  color: #ff8a00;
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 1.5rem;
+}
+
+a.dark {
+  padding: 1rem 1.5rem;
+}
+
+a.chap {
+  margin: 0rem 2rem;
+  background-color: #311f09;
+  max-width: 350px;
+}
+
+.menu_food {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 85rem;
+}
+
+.menu_box {
+  width: 20rem;
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.menu_box_img {
+  width: 16rem;
+}
+
+.menu_box h1 {
+  text-align: center;
+}
+
+.menu_box-start {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0rem;
+  transform: scale(0.7);
+}
+
+.menu_box p {
+  text-align: center;
+}
+
+.menu_box_pay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0rem;
+  gap: 2rem;
+}
+
+.menu_box_pay h3 {
+  font-size: 1.5rem;
+}
+
+.menu_box_pay button {
+  padding: 1rem;
+  border: none;
+  border-radius: 5rem;
+  font-weight: 700;
+  background-color: #ff8a00;
+  color: white;
+}
+
+.plus {
+  display: none;
+}
+
+.reserve_imd-dad1 {
+  width: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.reserve_imd-dad1 img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  padding: 1.5rem;
+  background-color: #e1c39f7d;
+}
+
+.reserve_imd-dad2 img {
+  width: 40rem;
+  height: 40rem;
+  border-radius: 50%;
+  padding: 3rem;
+  background-color: #e1c39f7d;
+}
+
+.reserve_imd-dad3 {
+  position: relative;
+  right: 11rem;
+}
+
+.reserve_imd-dad3 img {
+  width: 18rem;
+  height: 18rem;
+  border-radius: 50%;
+  padding: 1.5rem;
+  background-color: #e1c39f7d;
+}
+
+.reserve_info-title h1 {
+  font-size: 4rem;
+  font-family: "Tinos", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+}
+
+.reserve_info-title h1:nth-child(2) {
+  color: #ff8a00;
+}
+.reserve_info-p p {
+  width: 30rem;
+  font-size: 1.2rem;
+  color: #5c4529;
+}
+
+.reserve_info-btn button {
+  width: 14rem;
+  height: 4rem;
+  border: none;
+  border-radius: 2rem;
+  background-color: #ff8a00;
+  color: white;
+}
+
+.reserve_info {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.reserve {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.our_chef_title {
+  text-align: center;
+  width: 100%;
+  font-size: 5rem;
+  margin: 4rem 0rem;
+  font-family: "Tinos", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+}
+
+.the_chef-img img {
+  width: 37rem;
+}
+
+.now img {
+  width: 45rem;
+}
+
+.the_chef-img {
+  background-color: rgba(128, 128, 128, 0.611);
+  width: 32rem;
+  height: 55rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.the-chef-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-direction: column;
+}
+
+.the-chef-info h2 {
+  font-size: 2.3rem;
+}
+
+.the-chef-info h3 {
+  font-weight: 300;
+}
+
+
+
+.the-chef {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.our_chefs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 3rem;
+}
+
+.our_chef-btn button {
+  width: 15rem;
+  height: 4rem;
+  border: none;
+  border-radius: 2rem;
+  color: white;
+  background-color: #ff8a00;
+}
+
+.our_chef-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem 0rem;
+}
+
+.our_costemar_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.our_costemar_img img {
+  width: 20rem;
+  border-radius: 50%;
+}
+
+.our_costemar_name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.our_costemar_name h2 {
+  font-size: 2rem;
+}
+
+.our_costemar_name h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.our_costemar_p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30rem;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.our_costemar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100% ;
+  gap: 2rem;
+}
+
+.our_costemar_imges {
+  bottom: 13rem;
+  position: relative;
+}
+
+.our_costemar_imges img {
+  width: 7rem;
+  border-radius: 50%;
+  position: relative;
+}
+
+.our_costemar_imges img:nth-child(1) {
+  width: 4rem;
+}
+
+.our_costemar_imges img:nth-child(7) {
+  width: 4rem;
+}
+
+.our_costemar_imges img:nth-child(2) {
+  width: 5rem;
+  top: 5rem;
+}
+
+.our_costemar_imges img:nth-child(6) {
+  width: 5rem;
+  top: 5rem;
+}
+
+.our_costemar_imges img:nth-child(3) {
+  width: 6rem;
+  top: 10rem;
+}
+
+.our_costemar_imges img:nth-child(5) {
+  width: 6rem;
+  top: 10rem;
+}
+
+.our_costemar_imges img:nth-child(4) {
+  width: 11rem;
+  top: 17rem;
+  padding: 1rem;
+  background-color: #ff880086;
+}
+
+.footer_time {
+  height: 35rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.conterner_time {
+  border-radius: 5rem;
+  box-shadow: 0rem 1rem 2rem -1rem;
+  width: 50rem;
+  height: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer_title {
+  text-align: center;
+  font-size: 3.5rem;
+  font-family: "Tinos", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+}
+
+.footer_work_time {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer_work_time p:nth-child(4) {
+  width: 18rem;
+  text-align: right;
+}
+
+.footer_time_btn button {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 2rem;
+}
+
+.footer_time_btn button:nth-child(1) {
+  background-color: #ff8a00;
+  color: white;
+}
+
+.footer_time_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0rem;
+}
+
+.visiblity{
+  display: none;
+}
+
+
+
+@media (max-height: 400px) {
+  main {
+    height: 100vh;
+  }
+}
+
+@media (max-height: 469px) {
+  main {
+    min-height: 1450vh;
+  }
+}
+
+@media (max-width: 670px) {
+  .itailn_food-dad{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .itailn_info{
+    margin: 0rem 5rem;
+  }
+  .itailn_img img{
+    width: 40rem;
+  }
+  .welcom_delizision{
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 85rem;
+    width: 40rem;
+  }
+  .welcom_delizision_img img{
+    width: 40rem;
+  }
+  .welcom_delizision_p {
+  gap: 3rem;
+  width: 30rem;
+  }
+  .welcom_delizision_lorem p{
+    width: 35rem;
+  }
+  .menu_title2 {
+    width: 45rem;
+    font-size: 4.5rem;
+  }
+  .menu_link-food{
+    justify-content: flex-start;
+    gap: 0rem;
+  }
+  .menu_food{
+    left: 0;
+    grid-template-columns: 1fr 1fr;
+    width: 46rem;
+  }
+
+  .slideer{
+    width: 46rem;
+  }
+
+  .reserve{
+    flex-direction: column-reverse;
+    width: 55rem;
+    padding: 1rem;
+  }
+
+  .reserve_info {
+    gap: 3rem;
+  }
+
+  .reserve_imd-dad2{
+    display: flex;
+    justify-content: center;
+  }
+
+  .reserve_imd-dad2 img{
+    width: 25rem;
+    height: 25rem;
+  }
+  .reserve_imd-dad3{
+    right: 0rem;
+  }
+  .reserve_imd-dad3 img{
+    width: 13rem;
+    height: 13rem;
+  }
+
+  .reserve_imd-dad1{
+    width: 38rem;
+  }
+
+  .reserve_imd-dad1 img{
+    width: 13rem;
+    height: 13rem;
+  }
+  .our_chefs{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .visiblity{
+    display: flex;
+  }
+
+  .our_chef-btn{
+    width: 67rem;
+  }
+
+
+
+  .now img {
+    width: 30rem;
+}
+
+.the_chef-img {
+  width: 25rem;
+  height: 38rem;
+}
+
+.the_chef-img img{
+  width: 29rem;
+  height: 38rem;
+}
+
+
+}

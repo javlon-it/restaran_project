@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 1);
+
+}
+
+body{
+    overflow: hidden;
+}
+
+
+
+.footer_text {
+    display: none;
+}
+
+.sign_up_img {
+    position: relative;
+    bottom: 20rem;
+    left: 8rem;
+  }
+
+.sign_up_img img {
+  width: 85rem;
+  padding: 10rem;
+  border-radius: 50%;
+  background-color: rgba(255, 138, 0, 1);
+}
+
+.sign_up{
+    top: 5rem;
+}
+
+.remember_df{
+    display: flex;
+}
+
+.sign_up_lebel label {
+    display: none;
+}
+
+.sign_up_lebel input {
+    margin: 2rem 1.5rem;
+    padding: 1rem 2rem;
+}
